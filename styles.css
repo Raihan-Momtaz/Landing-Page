@@ -1,0 +1,164 @@
+.b{
+  width: 640px;
+  height: 200px;
+}
+
+.p{
+  width: 180px;
+  height: 180px;
+  border-radius: 25px;
+  border: 2px solid #3882F6;
+}
+
+
+.top{
+  display: flex;
+  flex-direction: column; 
+  background-color: #1F2937;
+  color: aliceblue;
+  padding-bottom: 100px;
+  padding-right: 400px;
+  padding-left: 400px;
+
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  padding: 20px;
+  display: flex;
+  list-style: none;
+  gap: 16px;
+}
+
+.body{
+  display: flex;
+  gap: 20px;
+}
+
+.logo{
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.awesome{
+  font-size: 48px;
+  font-weight:bolder;
+}
+
+.awesomelink{
+  font-size: 18px;
+}
+
+.nobody{
+  flex-wrap: wrap;
+  width: 450px;
+}
+
+
+.up{
+  background-color: #3882F6;
+  
+  border: none;
+  color: white;
+  padding: 8px 32px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.down{
+  flex: 0 0 1;
+  background-color: #3882F6;
+  align-self: center;
+  border-color: white;
+  color: white;
+  padding: 8px 32px;
+  text-align: center;
+  text-decoration: none;
+}
+
+body{
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+.info{
+  font-size: 36px;
+  font-weight: bold;
+  color: #1F2937
+}
+.pic{
+  flex-wrap: wrap;
+  width: 180px;
+  justify-content: center;
+  align-items: center;
+}
+
+.pics{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  text-align: center;
+}
+
+.pix{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.quote{
+  justify-content: center;
+  padding: 50px 500px;
+  background-color: #E5E7EB;
+
+}
+
+.q{
+  font-size: 36px;
+  font-style: italic;
+}
+
+.lefty{
+  text-align: right;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.final{
+  padding: 100px 400px;
+}
+
+.action{
+  display: flex;
+  padding: 20px 100px;
+  background-color: #3882F6;
+  color: aliceblue;
+  justify-content: space-between;
+}
+
+.bolt{
+  font-weight: bold;
+  font-size: 18px;
+  
+}
+
+footer{
+  background-color: #1F2937;
+  color: white;
+  align-items: center;
+  padding: 20px 100px;
+  width: 100%;
+  align-self: center;
+  text-align: center;
+}
